@@ -7,7 +7,7 @@
     <form action="{{route('cursos.store')}}" method="POST">
         @csrf
         <label for="">
-            Nombre:
+            Nombre del curso:
             <br/>
             <input type="text" name="name" value="{{old('name')}}">
         </label>
