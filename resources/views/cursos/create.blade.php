@@ -39,6 +39,6 @@
             <br/>
         @enderror
         <br/>
-        <button type="submit">Enviar</button>
+        <button type="submit">Enviar formulario</button>
     </form>
 @endsection
