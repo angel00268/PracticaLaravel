@@ -18,7 +18,7 @@
         @enderror
         <br/>
         <label>
-            Descripcion:
+            Descripcion del curso:
             <br/>
             <textarea name="descripcion" id="" rows="5">{{old('descripcion')}}</textarea>
         </label>
@@ -29,7 +29,7 @@
         @enderror
         <br/>
         <label>
-            Cateoria:
+            Cateoria del curso:
             <br/>
             <input type="text" name="categoria" value="{{old('categoria')}}">
         </label>
