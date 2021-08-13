@@ -15,7 +15,7 @@ use App\Http\Controllers\CursoController;
 |
 */
 
-Route::get('/', HomeController::class);
+Route::get('/', HomeController::class)->name('home');
 
 /* Route::get('cursos', [CursoController::class,"index"])->name('cursos.index');
 Route::get('cursos/create', [CursoController::class,"create"])->name('cursos.create');
@@ -29,3 +29,4 @@ Route::delete('cursos/{curso}', [CursoController::class, 'destroy'])->name('curs
 //->names() le da el nombre a las rutas
 //->parameters() este metodo es para generar el nombre del parametro
 Route::resource('cursos', CursoController::class);
+Route::view('nostros', 'nosotros')->name('nosotros');
